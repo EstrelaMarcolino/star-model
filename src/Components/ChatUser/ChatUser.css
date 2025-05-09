@@ -1,0 +1,57 @@
+.MatchUserContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardUser{
+    width: 96%;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+}
+.cardUser:hover{
+    background: linear-gradient(45deg, #dad68a, #D2CC56);
+    color: #fff;
+    transition: 3s;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.im{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.MatchImg{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+.MatchName{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.MatchDate{
+    margin-right: 10px;
+}
+.cardUserLink{
+    text-decoration: none;
+    border: none;
+    color: #999;
+    width: 96%;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+}

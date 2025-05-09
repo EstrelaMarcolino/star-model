@@ -1,0 +1,122 @@
+.fullPrincipal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+/* ========setMenu======== */
+.sectMenu {
+    flex: 2.8;
+    border: 1px solid whitesmoke;
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+}
+
+.PhotoProfile {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-left: 10px;
+}
+
+.menuImgSeta {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background: linear-gradient(45deg, #D2CC56, #615e28);
+}
+
+.imgName {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userAmaral {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.seta {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    transform: scale(0.89);
+}
+
+.seta:hover {
+    cursor: pointer;
+    transform: scale(1);
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.matchAndChat {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.match {
+    border: none;
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.chat {
+    border: none;
+    cursor: pointer;
+    /* border-bottom: 3px solid #fe3072; */
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+}
+
+.border {
+    border-bottom: 3px solid #D2CC56;
+
+}
+
+/* ========fieldBody======== */
+.fieldBody {
+    flex: 9.2;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.matchSection {
+    width: 900px;
+    max-width: 500px;
+    height: 500px;
+    max-height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.imagemBody {
+    height: 100px;
+}

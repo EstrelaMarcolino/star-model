@@ -14,6 +14,7 @@ import AddModele from './Pages/AddModele/AddModele';
 import Search from './Pages/Search/Search';
 import ChatPage from './Pages/ChatPage/ChatPage';
 import AllChats from './Pages/Allchats/AllChats';
+import Adm from './Pages/Adm/Adm';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/search/:key" element={user ? <Search /> : <Login />} exact />
           <Route path="/chat/:id" element={user ? <ChatPage /> : <Login />} exact />
           <Route path="/chat" element={user ? <AllChats /> : <Login />} exact />
+          <Route path="/admin" element={user ? <Adm /> : <Login />} exact />
           <Route path="/success" element={user ? <PaySuccess /> : <Login />} exact />
           <Route path="/addmodele" element={user ? <AddModele /> : <Login />} exact />
         </Routes>

@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './ChatPage.css'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import ChatUser from '../../Components/ChatUser/ChatUser'
 import { Context } from '../../Context/Context'
@@ -50,7 +50,7 @@ export default function ChatPage() {
                         />
                         <h4 className='userAmaral'>{user.profilePic ? user.username : user.nome}</h4>
                     </div>
-                    <div className=""></div>
+                    <div className=""><Link to="/"><i class="fa-solid fa-angles-left ArrowLeftChat"></i></Link></div>
                 </menu>
                 <div className="matchAndChat">
                     <div className={`chat ${add}`} onClick={setChat}>Chat</div>

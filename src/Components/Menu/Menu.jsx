@@ -24,6 +24,7 @@ export default function Menu({ setDatad }) {
         <li className="itemContentMenu"><Link to="/" className='a'>Home</Link></li>
         <li className="itemContentMenu"><Link to="/cooperativa">Agências</Link></li>
         <li className="itemContentMenu"><Link to="/chat">Chat</Link></li>
+        <li className="itemContentMenu"><Link to="/admin">Adm</Link></li>
       </div>
       <div className="serchMenu">
         <input type="text" onChange={(e) => setPalavra(e.target.value)} placeholder='Pesquisar Modelo' className="serchMEnuInput" />

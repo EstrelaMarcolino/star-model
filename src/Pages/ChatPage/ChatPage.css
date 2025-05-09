@@ -5,6 +5,15 @@
 }
 
 /* ========setMenu======== */
+.ArrowLeftChat{
+    font-size: 1.4rem;
+    color: #d5d5d5;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.ArrowLeftChat:hover{
+    color: #666;
+}
 .sectMenu {
     flex: 2.8;
     border: 1px solid whitesmoke;
